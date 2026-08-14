@@ -95,6 +95,5 @@ df["Review"] = df["Review"].replace({
 
 df["Review"] = df["Review"].str.title()
 
-df = df.drop_duplicates()
 
 df.to_csv("clients_cleaned.csv", index=False)
